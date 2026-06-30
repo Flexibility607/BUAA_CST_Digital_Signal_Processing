@@ -1,24 +1,0 @@
-Elliptic filter specification: rp=0.1 dB, rs=60 dB
-lowpass_y3: order=7, passband max loss=0.1000 dB, stopband min attenuation=60.0000 dB
-bandpass_y2: order=6, passband max loss=0.1000 dB, stopband min attenuation=60.0000 dB
-highpass_y1: order=9, passband max loss=0.1000 dB, stopband min attenuation=60.0000 dB
-
-Expected positive-frequency SCAM lines:
-  225.0 Hz -> nearest DFT bin  225.00 Hz, normalized magnitude 1.0000
-  275.0 Hz -> nearest DFT bin  275.00 Hz, normalized magnitude 1.0000
-  450.0 Hz -> nearest DFT bin  450.00 Hz, normalized magnitude 1.0000
-  550.0 Hz -> nearest DFT bin  550.00 Hz, normalized magnitude 1.0000
-  900.0 Hz -> nearest DFT bin  900.00 Hz, normalized magnitude 1.0000
- 1100.0 Hz -> nearest DFT bin 1100.00 Hz, normalized magnitude 1.0000
-
-FFT length ideal-line check:
-N=1600: bin spacing=6.250000 Hz, all ideal=True, non-integer-bin lines=none
-N=1800: bin spacing=5.555556 Hz, all ideal=False, non-integer-bin lines=225 Hz, 275 Hz
-N=2000: bin spacing=5.000000 Hz, all ideal=True, non-integer-bin lines=none
-
-Generated figures:
-- C:/Users/傅粱训/Documents/DSP1/figures/experiment2/mixed_signal.png
-- C:/Users/傅粱训/Documents/DSP1/figures/experiment2/filters_loss.png
-- C:/Users/傅粱训/Documents/DSP1/figures/experiment2/separated_signals.png
-- C:/Users/傅粱训/Documents/DSP1/figures/experiment2/fft_length_comparison.png
-- C:/Users/傅粱训/Documents/DSP1/figures/experiment2/am_vs_scam.png

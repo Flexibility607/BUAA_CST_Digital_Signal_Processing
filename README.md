@@ -1,4 +1,4 @@
-# DSP 课程实验
+# BUAA CST Digital Signal Processing
 
 本仓库用于存放数字信号处理（Digital Signal Processing, DSP）课程实验材料，包含实验代码、LaTeX 报告源码、PDF 报告、实验图像以及提交压缩包。
 
